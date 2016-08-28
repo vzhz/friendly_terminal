@@ -4,8 +4,15 @@ We spend all day in the terminal, so why not have it say nice things to you to s
 Set up takes ~10 minutes and you too can have friendly messages *every joyous day*.
 
 ## Installation
+This program consists of three parts (two that you are likely to want to modify):
+- A text file of affirmations that you will have selected.
+- A Python file that will select a random affirmation from your text file.
+- An added line in your .bash_profile that prints the selected affirmation when the terminal is opened.
+Let's get started!
 
 ###Find or create your .bash_profile
+To search for your .bash_profile using your terminal, type <code>find ~/ -type f -name ".bash_profile"</code>.  This will search your home directory (where your bash profile is likely stored) for a file called .bash_profile.  Using Mac's Spotlight will strip the "." before searching and this will make you sad.
+If you do not have a .bash_profile, navigate to your home directory and (in your terminal) type <code><your editor of choice> .bash_profile</code> to create and open the file.
 
 In your .bash_profile, add <code>python3 /Users/<username>/randline.py /Users/<username>/quotes_for_terminal.txt</code>
 
