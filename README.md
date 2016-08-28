@@ -32,6 +32,6 @@ Now you are ready to open yourself a fresh terminal and smile.
 We welcome your contrubutions in pretty much any form.  Create an issue or clone and go to town on a pull request.
 
 ##License
-friendly_terminal is released under [the MIT license](https://opensource.org/licenses/MIT).
+friendly_terminal is released under [the MIT license](https://github.com/vzhz/friendly_terminal/blob/master/LICENSE.txt).
 
 
