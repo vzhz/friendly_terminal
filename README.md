@@ -1,5 +1,11 @@
 # friendly_terminal
-we spend all day in the terminal, so why not have it say nice things to you to start your day off right?
+We spend all day in the terminal, so why not have it say nice things to you to start your day off right?  Using friendly_terminal, you terminal will display a random motivational message from a selection you have created.
+
+Set up takes ~10 minutes and you too can have friendly messages *every joyous day*.
+
+## Installation
+
+###Find or create your .bash_profile
 
 In your .bash_profile, add <code>python3 /Users/<username>/randline.py /Users/<username>/quotes_for_terminal.txt</code>
 
