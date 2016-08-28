@@ -12,13 +12,18 @@ Let's get started!
 
 ###Find or create your .bash_profile
 To search for your .bash_profile using your terminal, type <code>find ~/ -type f -name ".bash_profile"</code>.  This will search your home directory (where your bash profile is likely stored) for a file called .bash_profile.  Using Mac's Spotlight will strip the "." before searching and this will make you sad.
-If you do not have a .bash_profile, navigate to your home directory and (in your terminal) type <code><your editor of choice> .bash_profile</code> to create and open the file.
+If you do not have a .bash_profile, navigate to your home directory (<code>/Users/<username>/</code>) and (in your terminal) type <code><your editor of choice> .bash_profile</code> to create and open the file.
 
-In your .bash_profile, add <code>python3 /Users/<username>/randline.py /Users/<username>/quotes_for_terminal.txt</code>
+###In your .bash_profile
+In your .bash_profile, add <code>python3 /Users/<username>/randline.py /Users/<username>/quotes_for_terminal.txt</code>.
 
-To create a new .bash_profile, 
-(a) navigate to your user folder <code>cd /Users/<username>/</code>
-(b) create file with <code>touch .bash_file</code>
-(c) open file with your favorite editor and go to town!
+###Save downloaded Python file to home directory
+Do that.
+
+Now for the fun part!
+###Add your favorite nice things to your text file
+Make your terminal say whatever will make you feel good. My favorite is "you look very nice tonight and you are very smart" but some people might be motivated by a nice "get to work, you fucker."  You do you.
+
+
 
 <a href='http://www.recurse.com' title='Made with love at the Recurse Center'><img src='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png' height='20px'/></a>
