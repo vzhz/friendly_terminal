@@ -1,4 +1,6 @@
 # friendly_terminal
+<a href='http://www.recurse.com' title='Made with love at the Recurse Center'><img src='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png' height='20px'/></a>
+
 We spend all day in the terminal, so why not have it say nice things to you to start your day off right?  Using friendly_terminal, you terminal will display a random motivational message from a selection you have created.
 
 Set up takes ~10 minutes and you too can have friendly messages *every joyous day*.
@@ -24,6 +26,12 @@ Now for the fun part!
 ###Add your favorite nice things to your text file
 Make your terminal say whatever will make you feel good. My favorite is "you look very nice tonight and you are very smart" but some people might be motivated by a nice "get to work, you fucker."  You do you.
 
+Now you are ready to open yourself a fresh terminal and smile.  
+
+##Contributing
+We welcome your contrubutions in pretty much any form.  Create an issue or clone and go to town on a pull request.
+
+##License
+friendly_terminal is released under [the MIT license](https://opensource.org/licenses/MIT).
 
 
-<a href='http://www.recurse.com' title='Made with love at the Recurse Center'><img src='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png' height='20px'/></a>
