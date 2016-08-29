@@ -3,6 +3,8 @@
 
 We spend all day in the terminal, so why not have it say nice things to you to start your day off right?  Using friendly_terminal, you terminal will display a random motivational message from a selection you have created.
 
+![Imagine this greeting you every morning. : )](https://github.com/vzhz/friendly_terminal/blob/master/friendly_terminal_preview.png)
+
 Set up takes ~10 minutes and you too can have friendly messages *every joyous day*.
 
 ## Installation
