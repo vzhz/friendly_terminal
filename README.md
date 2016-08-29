@@ -14,17 +14,16 @@ This program consists of three parts (two that you are likely to want to modify)
 - An added line in your .bash_profile that prints the selected affirmation when the terminal is opened.
 Let's get started!
 
-###Find or create your .bash_profile
+###Clone this repo
+Navigate to your home directory <code>/Users/*username*/</code> and clone this repo.
+
+###Find your shell
+Find your shell (e.g. you may be using [zshrc]() or bash) and add <code>python3 /Users/*username*/friendly_terminal/randline.py /Users/*username*/friendly_terminal/quotes_for_terminal.txt</code>.
+
+####Troubleshooting
 To search for your .bash_profile using your terminal, type <code>find ~/ -type f -name ".bash_profile"</code>.  This will search your home directory (where your bash profile is likely stored) for a file called .bash_profile.  Using Mac's Spotlight will strip the "." before searching and this will make you sad.
 If you do not have a .bash_profile, navigate to your home directory (<code>/Users/*username*/</code>) and (in your terminal) type <code>*your editor of choice* .bash_profile</code> to create and open the file.
 
-###In your .bash_profile
-In your .bash_profile, add <code>python3 /Users/*username*/randline.py /Users/*username*/quotes_for_terminal.txt</code>.
-
-###Save downloaded Python file to home directory
-Do that.
-
-Now for the fun part!
 ###Add your favorite nice things to your text file
 Make your terminal say whatever will make you feel good. My favorite is "you look very nice tonight and you are very smart" but some people might be motivated by a nice "get to work, you fucker."  You do you.
 
