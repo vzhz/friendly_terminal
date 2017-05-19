@@ -14,25 +14,25 @@ This program consists of three parts (two that you are likely to want to modify)
 - An added line in your .bash_profile that prints the selected affirmation when the terminal is opened.
 Let's get started!
 
-###Clone this repo
+### Clone this repo
 Navigate to your home directory <code>/Users/*username*/</code> and clone this repo.
 
-###Find your shell
+### Find your shell
 Find your shell (e.g. you may be using [zshrc]() or bash) and add <code>python3 /Users/*username*/friendly_terminal/randline.py /Users/*username*/friendly_terminal/quotes_for_terminal.txt</code>.
 
-####Troubleshooting
+#### Troubleshooting
 To search for your .bash_profile using your terminal, type <code>find ~/ -type f -name ".bash_profile"</code>.  This will search your home directory (where your bash profile is likely stored) for a file called .bash_profile.  Using Mac's Spotlight will strip the "." before searching and this will make you sad.
 If you do not have a .bash_profile, navigate to your home directory (<code>/Users/*username*/</code>) and (in your terminal) type <code>*your editor of choice* .bash_profile</code> to create and open the file.
 
-###Add your favorite nice things to your text file
+### Add your favorite nice things to your text file
 Make your terminal say whatever will make you feel good. My favorite is "you look very nice tonight and you are very smart" but some people might be motivated by a nice "get to work, you fucker."  You do you.
 
 Now you are ready to open yourself a fresh terminal and smile.  
 
-##Contributing
+## Contributing
 We welcome your contrubutions in pretty much any form.  Create an issue or clone and go to town on a pull request.
 
-##License
+## License
 friendly_terminal is released under [the MIT license](https://github.com/vzhz/friendly_terminal/blob/master/LICENSE.txt).
 
 
