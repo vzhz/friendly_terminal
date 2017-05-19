@@ -3,7 +3,7 @@ import sys
 import datetime
 
 def timeOfDay(time):
-    if time.hour <= 2 or time.hour >= 6:
+    if time.hour <= 2 or time.hour >= 18:
         return 'evening'
     elif time.hour <= 12:
         return 'morning'
@@ -11,13 +11,13 @@ def timeOfDay(time):
         return 'afternoon'
 
 def dayOrNight(time):
-    if time.hour <= 4 or time.hour >= 8:
+    if time.hour <= 4 or time.hour >= 20:
         return 'night'
     else:
         return 'day'
 
 def todayOrTonight(time):
-    if time.hour <= 4 or time.hour >= 8:
+    if time.hour <= 4 or time.hour >= 20:
         return 'tonight'
     else:
         return 'today'
