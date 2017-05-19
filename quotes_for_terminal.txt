@@ -1,3 +1,32 @@
-You look very nice tonight and you are very smart.
-Oh, man, go get a pizza! Wait, no, you can work a while more!
-Good morning, Veronica! What fantastic thing are you building today?
+Another %(dayOrNight)s, another task to be crossed off your list.
+Did you know the first step to being awesome at something is daring to be awful at it?
+Don't forget to save your work early and often!
+Don't sweat it, %(name)s. You're making good progress.
+Good %(timeOfDay)s! What fantastic things are you building today?
+Good %(timeOfDay)s, %(name)s. How are you doing?
+Hard work is good for the soul, but so is rest. Are you well-rested %(todayOrTonight)?
+Have you made any backups of your work lately, %(name)s?
+Hello again, %(name)s. How are you doing this %(timeOfDay)s?
+Hello, %(name)s! How's your %(timeOfDay)s going so far?
+Hey, %(name)s! Did you remember to get some rest today?
+Hey %(name)s, don't you forget to take a break every now and then!
+Hey %(name)s, what's up?
+Hi there, %(name)s!
+Hi there, %(name)s. How are you?
+Hi, %(name)s! Are you having a good %(dayOrNight)s?
+How are you %(todayOrTonight)s, %(name)s?
+How's your %(dayOfWeek)s going, %(name)s?
+I know you can do it!
+I like your stuff, %(name)s!
+I'm impressed by how well you work, %(name)s!
+If ever you're stuck, don't be afraid to ask for help.
+It's good to see you again, %(name)s.
+Just do it!
+Keep up the good work, %(name)s!
+Never give up, never surrender!
+There you are, %(name)s. I hope that you're having a good %(dayOrNight)s.
+There you are, %(name)s! It's good to see you again.
+This is the perfect %(dayOrNight)s to get something wonderful done, don't you agree?
+What are you working on %(todayOrTonight)s?
+You can accomplish anything, as long as you're persistent.
+You're doing great. Keep it up, %(name)s!
