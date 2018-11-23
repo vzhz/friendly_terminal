@@ -33,6 +33,7 @@ def main():
         'timeOfDay': timeOfDay(now),
         'dayOrNight': dayOrNight(now),
         'todayOrTonight': todayOrTonight(now),
+        'dayOfWeek': dayOfWeek(now),
         'name': name
     })
 
