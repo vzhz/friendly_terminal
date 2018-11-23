@@ -17,7 +17,10 @@ Let's get started!
 You will:
 - Clone this repo
 - Try out the program (opitional)
-- 
+- Add program to your .bash_profile
+- Add quotes & randline file to home directory
+- Open a fresh terminal & smile!
+- Customize your quotes (optional)
 
 ### Clone this repo
 Navigate to your home directory <code>/Users/*username*/</code> and clone this repo. In the terminal, navigating to your home directory can be done with <code>cd ~/</code>.
