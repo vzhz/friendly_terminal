@@ -1,7 +1,7 @@
 # Friendly Terminal
 <a href='http://www.recurse.com' title='Made with love at the Recurse Center'><img src='https://cloud.githubusercontent.com/assets/2883345/11325206/336ea5f4-9150-11e5-9e90-d86ad31993d8.png' height='20px'/></a>
 
-We spend all day in the terminal, so why not have it say nice things to you to start your day off right?  Using friendly_terminal, you terminal will display a random motivational message from a selection you have created.
+We spend all day in the terminal, so why not have it say nice things to you to start your day off right?  Using Friendly Terminal, you terminal will display a random motivational message from a selection you have created.
 
 ![Imagine this greeting you every morning. : )](https://github.com/vzhz/friendly_terminal/blob/master/friendly_terminal_preview.png)
 
@@ -16,7 +16,7 @@ Let's get started!
 
 You will:
 - Clone this repo
-- Try out the program (opitional)
+- Try out the program (optional)
 - Add program to your .bash_profile
 - Add quotes & randline file to home directory
 - Open a fresh terminal & smile!
@@ -31,12 +31,14 @@ git clone https://github.com/vzhz/friendly_terminal.git
 Anywhere you see <code>/Users/*username*/</code>, you can use a <code>~/</code> instead.
 
 ### Try it out
+**(optional)**
+
 If you haven't already used it for the first step, find your shell (e.g. you may be using [zshrc]() or bash) and add 
 ```
 python3 /Users/username/friendly_terminal/randline.py /Users/username/friendly_terminal/quotes_for_terminal.txt [your name]</code>
 ```
 Substitute the name you would like to be greeted by for <code>[your name]</code>!
-Your terminal will return one greeting each time you run this command, so run it as many times as you like to preview your encouraging phrases. This is completely opitional.
+Your terminal will return one greeting each time you run this command, so run it as many times as you like to preview your encouraging phrases.
 
 ### Add program to your .bash_profile
 Navigate to your home directory and open your .bash_profile using your terminal:
@@ -55,7 +57,7 @@ Once you open your .bash_profile, add
 the same way you did in your terminal earlier. If you haven't already, you're likely to be adding lots of customizations to your .bash_profile in the future, so it would be a good idea to add a comment explaining that this line runs the Friendly Terminal app!
 
 ### Add quotes & randline to home directory
-Either drag-and-drop or
+Either drag-and-drop or use your terminal:
 ```
 cd friend_terminal/
 cp randline.py quotes_for_terminal.txt ~/
@@ -65,12 +67,18 @@ cp randline.py quotes_for_terminal.txt ~/
 It should say something nice to you!
 
 ### Add your favorite nice things to your text file
+**(optional)**
+
 Make your terminal say whatever will make you feel good. The text file starts with a few encouraging phrases. My favorite is "you look very nice tonight and you are very smart" but some people might be motivated by a nice "get to work, you fucker."  You do you. This is optional - there are lots of good phrases in there already!
 
-Hurrah! Now you have a friendly(er) terminal!  
+Hurrah! Now you have a (even) friendly(er) terminal!  
 
 ## Contributing
-We welcome your contrubutions in pretty much any form.  Create an issue or fork and go to town on a pull request.
+We welcome your contributions in pretty much any form. 
+
+**Have an idea for expanding Friendly Terminal?** Create [an issue](https://github.com/vzhz/friendly_terminal/issues) (or comment on an existing one)!
+
+**Want to make your own modifications and share what you've done?** Fork & get started on a pull request. ([This repo](https://github.com/firstcontributions/first-contributions) has a step-by-step guide to for using Github as a first-time contributor). (Feel free to open [an issue](https://github.com/vzhz/friendly_terminal/issues) so we can start a conversation about your plans too!)
 
 ## License
-friendly_terminal is released under [the MIT license](https://github.com/vzhz/friendly_terminal/blob/master/LICENSE.txt).
+Friendly Terminal is released under [the MIT license](https://github.com/vzhz/friendly_terminal/blob/master/LICENSE.txt).
