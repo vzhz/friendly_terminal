@@ -4,7 +4,7 @@ Don't forget to save your work early and often!
 Don't sweat it, %(name)s. You're making good progress.
 Good %(timeOfDay)s! What fantastic things are you building today?
 Good %(timeOfDay)s, %(name)s. How are you doing?
-Hard work is good for the soul, but so is rest. Are you well-rested %(todayOrTonight)?
+Hard work is good for the soul, but so is rest. Are you well-rested %(todayOrTonight)s?
 Have you made any backups of your work lately, %(name)s?
 Hello again, %(name)s. How are you doing this %(timeOfDay)s?
 Hello, %(name)s! How's your %(timeOfDay)s going so far?
