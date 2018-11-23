@@ -14,15 +14,37 @@ This program consists of three parts (two that you are likely to want to modify)
 - An added line in your .bash_profile that prints the selected affirmation when the terminal is opened.
 Let's get started!
 
+You will:
+- Clone this repo
+- Try out the program (opitional)
+- 
+
 ### Clone this repo
-Navigate to your home directory <code>/Users/*username*/</code> and clone this repo.
+Navigate to your home directory <code>/Users/*username*/</code> and clone this repo. In the terminal, navigating to your home directory can be done with <code>cd ~</code>.
+'''
+cd ~
+git clone https://github.com/vzhz/friendly_terminal.git
+'''
+Anywhere you see <code>/Users/*username*/</code>, you can use a <code>~/</code> instead.
 
-### Find your shell
-Find your shell (e.g. you may be using [zshrc]() or bash) and add <code>python3 /Users/*username*/friendly_terminal/randline.py /Users/*username*/friendly_terminal/quotes_for_terminal.txt [your name]</code>, of course substituting the name you would like to be greeted by for <code>[your name]</code>.
+### Try it out
+If you haven't already used it for the first step, find your shell (e.g. you may be using [zshrc]() or bash) and add 
+'''
+python3 /Users/*username*/friendly_terminal/randline.py /Users/*username*/friendly_terminal/quotes_for_terminal.txt [your name]</code>
+'''
+Substitute the name you would like to be greeted by for <code>[your name]</code>!
+Your terminal will return one greeting each time you run this command, so run it as many times as you like to preview your encouraging phrases. This is completely opitional.
 
-#### Troubleshooting
-To search for your .bash_profile using your terminal, type <code>find ~/ -type f -name ".bash_profile"</code>.  This will search your home directory (where your bash profile is likely stored) for a file called .bash_profile.  Using Mac's Spotlight will strip the "." before searching and this will make you sad.
-If you do not have a .bash_profile, navigate to your home directory (<code>/Users/*username*/</code>) and (in your terminal) type <code>*your editor of choice* .bash_profile</code> to create and open the file.
+### Add program to your .bash_profile
+Navigate to your home directory and search for your .bash_profile using your terminal:
+'''
+cd ~
+find ~/ -type f -name ".bash_profile"
+'''
+This will search your home directory (where your bash profile is likely stored) for a file called .bash_profile.  Using Mac's Spotlight will strip the "." before searching and this will make you sad.
+If you do not have a .bash_profile, navigate to your home directory and (in your terminal) type <code>*your editor of choice* .bash_profile</code> to create and open the file.
+
+
 
 ### Add your favorite nice things to your text file
 Make your terminal say whatever will make you feel good. The text file starts with a few encouraging phrases. My favorite is "you look very nice tonight and you are very smart" but some people might be motivated by a nice "get to work, you fucker."  You do you.
